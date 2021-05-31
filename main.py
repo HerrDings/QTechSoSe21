@@ -38,7 +38,7 @@ def ourSimpleAlgorithm(N):
   ar = math.pow(a,r/2)
   if a == -1%N:
     return ourSimpleAlgorithm(N)
+  print("found the following candidates:")
+  print(euclid(math.pow(a,r/2)+1,N))
+  print(euclid(math.pow(a,r/2)-1,N))
 
-
-  
- 
